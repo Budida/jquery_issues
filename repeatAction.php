@@ -1,18 +1,14 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-
+<!DOCTYPE html>
 <head>
 	<title>Jquery Repeat Actions</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="generator" content="Geany 0.20" />
+	<meta charset=utf-8" />
 	<script type="text/javascript" src="jquery.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			
 			function animateDiv() {
 				$('#myDiv')
-				.animate(
-					{height: '200px'})
+				.animate({height: '200px'})
 				.delay(5000)
 				.animate({
 						height: '300px'
@@ -25,8 +21,10 @@
 						})
 				.animate({left: '10px'}, animateDiv);
 			}
+		//calling animate function 
 		animateDiv();
 		
+		//using each function to enable looping of actions
 		var loop = function(){
 			var featlay = 0;
 			$('.featuredbanner img').each(function(){
