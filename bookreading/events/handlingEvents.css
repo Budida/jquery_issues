@@ -1,0 +1,26 @@
+.large  {
+font-size: 1.5em;
+}
+button {
+    float: right;
+}
+#switcher-header {
+    float: right;
+    border: 1px solid green;
+}
+#contents {
+    width: 600px;
+    border: 1px solid green;
+    margin: auto;
+}
+#switcher {
+    
+    
+}
+body.narrow .chapter {
+width: 250px;
+font-size: 0.2em;
+}
+.selected {
+font-weight: bold;
+}

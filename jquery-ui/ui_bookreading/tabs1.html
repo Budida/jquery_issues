@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="development-bundle/themes/cupertino/jquery.ui.all.css">
+<meta charset=utf-8">
+<title>jQuery UI Tabs Example 1</title>
+<script src="development-bundle/jquery-1.7.1.js"></script>
+<script src="development-bundle/ui/jquery.ui.core.js"></script>
+<script src="development-bundle/ui/jquery.ui.tabs.js"></script>
+<script>
+	$(document).ready(function() {
+	$("#myTabs").tabs();
+	});
+</script>
+</head>
+<body>
+<div id="myTabs">
+<ul>
+<li><a href="#a">Tab 1</a></li>
+<li><a href="#b">Tab 2</a></li>
+</ul>
+<div id="a">This is the content panel linked to the first tab,
+it is shown by default.</div>
+<div id="b">This content is linked to the second tab and will
+be shown when its tab is clicked.</div>
+</div>
+</body>
+</html>

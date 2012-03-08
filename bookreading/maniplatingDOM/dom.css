@@ -1,0 +1,14 @@
+.footnote {
+	font-style: italic;
+	display: block;
+	color: #A020F0;
+}
+.pulled {
+background: #e5e5e5;
+position: absolute;
+width: 145px;
+top: -20px;
+right: -180px;
+padding: 12px 5px 12px 10px;
+font: italic 1.4em "Times New Roman", Times, serif;
+}

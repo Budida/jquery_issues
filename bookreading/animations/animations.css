@@ -1,0 +1,9 @@
+#switcher {
+    border: 1px solid green;
+    width: 250px;
+}
+.speech {
+    width: 400px;
+    padding-left: 10px;
+    border: 1px solid green;
+}

@@ -1,0 +1,86 @@
+<!--
+        mytest.html
+        
+        Copyright 2012 Budida <budida@budida-Inspiron-1525>
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; either version 2 of the License, or
+        (at your option) any later version.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+        MA 02110-1301, USA.
+        
+        
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>untitled</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 0.20" />
+	
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#p1").click(function() {
+				$("#para1").slideToggle();
+				$("#para2").fadeOut()
+				$("#para3").fadeOut()
+				});
+			$("#p2").click(function() {
+				$("#para2").slideToggle();
+				$("#para1").slideUp()
+				$("#para3").slideUp()
+				});
+			$("#p3").click(function() {
+				$("#para3").slideToggle();
+				$("#para1").slideUp()
+				$("#para2").slideUp()
+				});
+				
+				
+		$("#para1").hide()
+		$("#para2").hide()
+		$("#para3").hide()
+			});
+	
+	</script>
+</head>
+
+<body>
+	<div style="width: 400px; margin: auto; background-color: #A2BAFA;">
+	<h3 id="p1">Read First Paragraph</h3>
+	<p id="para1" style="background-color: teal">
+	
+	This is a first paragraph seen it eeh!This is a first paragraph seen it eeh!This is a first paragraph seen it eeh!
+	
+	</p>
+	<h3 id="p2">Read Second Paragraph</h3>
+	
+	<p id="para2" style="background-color: blue">
+	
+	This is a second paragraph seen it eeh!This is a first paragraph seen it eeh!This is a first paragraph seen it eeh!
+	
+	</p>
+	<h3 id="p3">Read third Paragraph</h3>
+	
+	<p id="para3" style="background-color: yellow">
+	
+	This is a third paragraph seen it eeh!This is a first paragraph seen it eeh!This is a first paragraph seen it eeh!
+	
+	</p>
+	
+</body>
+
+</html>

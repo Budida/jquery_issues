@@ -1,0 +1,27 @@
+ul li {
+	list-style: none;
+}
+img {
+	height: 300px;
+	width: 300px;
+}
+.highlighted {
+	border: 10px;
+	background-color:#1A1A1A;
+	color: #FFFF00;
+	text-align: center;
+}
+#books {
+	border: 10px dotted;
+	text-align: center;
+	width: 400px;
+	height: 400px;
+}
+
+#books-controls {
+}
+#accordion_div {
+    width: 400px;
+    height: auto;
+    
+}
